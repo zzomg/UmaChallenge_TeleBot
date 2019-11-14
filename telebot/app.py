@@ -5,7 +5,8 @@ import logging
 import time
 import os
 
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(filename="loginfo",
+                    level=logging.INFO,
                     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger()
 
