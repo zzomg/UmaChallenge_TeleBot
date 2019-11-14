@@ -3,10 +3,13 @@
 Этот проект представляет собой Telegram бота для классификации изображений футболистов из предоставленного датасета, в основе которого лежит нейросеть, написанная на FastAI.
 
 **Нейросеть** можно найти здесь: https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi.
+С помощью этой модели на тестовых данных удалось достигнуть **accuracy 95%** (модель с этим результатом была экспортирована в файл **export.pkl**):
+
+![Image alt](https://github.com/zzomg/UmaChallenge_TeleBot/blob/master/res.png)
 
 Для запуска бота необходимо:
 
-1. Обучить [модель](https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi) и получить export.pkl.
+1. Обучить [модель](https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi) и получить файл .pkl. **Либо** воспользоваться уже готовым вариантом (файл export.pkl).
 
 2. Файлы из папки telebot загрузить на сервер (в моем случае бот хостится на Amazon Lightsail). 
 
