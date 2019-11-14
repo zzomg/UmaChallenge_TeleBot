@@ -29,8 +29,8 @@ def process_image(image_name):
     sorted_outputs = torch.sort(outputs, descending=True)
 
     top_preds = get_top_preds(sorted_outputs)
+    
     out = "The picture belongs to:\n"
-
     for class_n, val in top_preds.items():
         out += f"Class {class_n}, probability: {val:.4f}%\n"
 
