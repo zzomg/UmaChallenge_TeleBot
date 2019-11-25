@@ -2,6 +2,8 @@
 
 Этот проект представляет собой Telegram бота для классификации изображений футболистов из предоставленного датасета, в основе которого лежит нейросеть, написанная на FastAI.
 
+**Ссылка на бота**: @umatechbot
+
 **Нейросеть** можно найти здесь: https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi.
 С помощью этой модели на тестовых данных удалось достигнуть **accuracy 95%** (модель с этим результатом была экспортирована в файл **[export.pkl](https://drive.google.com/open?id=1eZ0GUVUKWkVGuhbBem4h0ujZvrhsbSZ4)**):
 
