@@ -4,16 +4,16 @@
 
 **UPD**: Проект занял 3-е место на Uma.Challenge https://challenge.uma.tech/ 🎉
 
-**Ссылка на бота**: @umatechbot (в данный момент отключен)
+**Бот в telegram**: @umatechbot (в данный момент отключен)
 
 **Нейросеть** можно найти здесь: https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi.
-С помощью этой модели на тестовых данных удалось достигнуть **accuracy 95%** (модель с этим результатом была экспортирована в файл **[export.pkl](https://drive.google.com/open?id=1eZ0GUVUKWkVGuhbBem4h0ujZvrhsbSZ4)**):
+Метрики **accuracy 95%** (модель: **[export.pkl](https://drive.google.com/open?id=1eZ0GUVUKWkVGuhbBem4h0ujZvrhsbSZ4)**):
 
 ![Image alt](https://github.com/zzomg/UmaChallenge_TeleBot/blob/master/res.png)
 
 Для запуска бота необходимо:
 
-1. Обучить [модель](https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi) и получить файл .pkl. **Либо** воспользоваться уже готовым вариантом (файл export.pkl).
+1. Обучить [модель](https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi) и получить файл .pkl. Либо воспользоваться уже готовым вариантом (файл export.pkl).
 
 2. Файлы из папки telebot загрузить на сервер (в моем случае бот хостится на Amazon Lightsail). 
 
