@@ -6,8 +6,8 @@
 
 **Бот в telegram**: @umatechbot (в данный момент отключен)
 
-**Нейросеть** можно найти здесь: https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi.
-Метрики **accuracy 95%** (модель: **[export.pkl](https://drive.google.com/open?id=1eZ0GUVUKWkVGuhbBem4h0ujZvrhsbSZ4)**):
+**Ссылка на ноутбук**: https://colab.research.google.com/drive/1QH6_NsRfRYN3F_ygFpWr9nfbVRK8hYHi.
+Метрики: **accuracy 95%** (модель: **[export.pkl](https://drive.google.com/open?id=1eZ0GUVUKWkVGuhbBem4h0ujZvrhsbSZ4)**):
 
 ![Image alt](https://github.com/zzomg/UmaChallenge_TeleBot/blob/master/res.png)
 
